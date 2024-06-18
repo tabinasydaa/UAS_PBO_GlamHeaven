@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="Layar1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="605.0" prefWidth="925.0" stylesheets="@Styles.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="KeranjangCheckout.KeranjangController">
+    <children>
+        <ScrollPane fx:id="scrollPane" id="Scroll1" hbarPolicy="NEVER" prefHeight="605.0" prefWidth="925.0">
+            <content>
+                <AnchorPane id="Layar2" minHeight="0.0" minWidth="0.0" prefHeight="610.0" prefWidth="932.0" style="-fx-background-color: FFD0D0;">
+                    <children>
+                        <HBox id="habox.bigtitle" alignment="CENTER" prefHeight="96.0" prefWidth="926.0">
+                            <effect>
+                                <Lighting>
+                                    <bumpInput>
+                                        <Shadow />
+                                    </bumpInput>
+                                    <light>
+                                        <Light.Distant>
+                                            <color>
+                                                <Color />
+                                            </color>
+                                        </Light.Distant>
+                                    </light>
+                                </Lighting>
+                            </effect>
+                            <children>
+                                <Label id="bigtitle" alignment="CENTER" contentDisplay="CENTER" prefHeight="96.0" prefWidth="948.0" text="SHOPPING BAG">
+                                    <font>
+                                        <Font name="Arial Rounded MT Bold" size="30.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <HBox id="habox.selectall" layoutX="-1.0" layoutY="95.0" prefHeight="40.0" prefWidth="926.0" style="-fx-border-color: CA8787;">
+                            <children>
+                                <CheckBox id="checkbox.selectall" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="38.0" prefWidth="210.0" text="Select All">
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                    <padding>
+                                        <Insets left="30.0" />
+                                    </padding>
+                                </CheckBox>
+                                <Label id="space1" prefHeight="38.0" prefWidth="421.0" />
+                                <Label prefHeight="38.0" prefWidth="22.0" />
+                                <Button id="buttondelete.top" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="226.0" style="-fx-background-radius: 20;" text="Delete" textAlignment="CENTER" textFill="#e42323">
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                    <HBox.margin>
+                                        <Insets bottom="5.0" top="5.0" />
+                                    </HBox.margin>
+                                </Button>
+                            </children>
+                        </HBox>
+                        <HBox id="habox.barang1" layoutX="-1.0" layoutY="135.0" prefHeight="103.0" prefWidth="926.0" style="-fx-border-color: CA8787;">
+                            <children>
+                                <CheckBox id="checkbox1" mnemonicParsing="false" prefHeight="116.0" prefWidth="102.0">
+                                    <padding>
+                                        <Insets left="32.0" />
+                                    </padding>
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </CheckBox>
+                                <ImageView id="jpg1" fx:id="cosrx" fitHeight="90.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                                    <HBox.margin>
+                                        <Insets bottom="5.0" top="5.0" />
+                                    </HBox.margin>
+                                    <image>
+                                        <Image url="@images/COSRX.png" />
+                                    </image>
+                                </ImageView>
+                                <Label id="space2" prefHeight="100.0" prefWidth="26.0" />
+                                <VBox prefHeight="100.0" prefWidth="400.0">
+                                    <children>
+                                        <Label id="pro1" prefHeight="51.0" prefWidth="434.0" text="COSRX">
+                                            <font>
+                                                <Font name="System Bold" size="13.0" />
+                                            </font>
+                                        </Label>
+                                        <Label id="desc1.pro1" prefHeight="18.0" prefWidth="435.0" text="Aloe Soothing Sun Cream SPA 50+ PA+++" textAlignment="CENTER" />
+                                        <Label id="desc2.pro1" prefHeight="18.0" prefWidth="352.0" text="Size : 50 ml" textAlignment="CENTER" />
+                                        <Label id="space3" prefHeight="29.0" prefWidth="327.0" />
+                                        <HBox id="desc3.pro1" prefHeight="48.0" prefWidth="434.0">
+                                            <children>
+                                                <Label prefHeight="28.0" prefWidth="67.0" text="Rp199.900" />
+                                                <Label prefHeight="28.0" prefWidth="62.0" text="Rp149.925" textFill="#e42323">
+                                                    <effect>
+                                                        <Lighting>
+                                                            <bumpInput>
+                                                                <Shadow />
+                                                            </bumpInput>
+                                                            <light>
+                                                                <Light.Distant>
+                                                                    <color>
+                                                                        <Color red="0.8941176533699036" green="0.13725490868091583" blue="0.13725490868091583" />
+                                                                    </color>
+                                                                </Light.Distant>
+                                                            </light>
+                                                        </Lighting>
+                                                    </effect>
+                                                </Label>
+                                                <Label id="label.disc1" prefHeight="28.0" prefWidth="51.0" text="[-25%]" textAlignment="CENTER" textFill="RED" />
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </VBox>
+                                <VBox fx:id="vBox" prefHeight="46.0" prefWidth="306.0">
+                                    <children>
+                                        <Label prefHeight="88.0" prefWidth="304.0" />
+                                        <HBox prefHeight="110.0" prefWidth="306.0">
+                                            <children>
+                                                <Button id="buttondel1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="26.0" prefWidth="75.0" style="-fx-background-radius: 20; -fx-background-color: A87676;" text="Delete" textAlignment="CENTER" textFill="WHITE">
+                                                    <font>
+                                                        <Font name="Arial" size="13.0" />
+                                                    </font>
+                                                    <HBox.margin>
+                                                        <Insets left="35.0" />
+                                                    </HBox.margin>
+                                                </Button>
+                                                <Button id="buttonadd1" mnemonicParsing="false" prefHeight="26.0" prefWidth="31.0" style="-fx-background-color: A87676;" text="+" textFill="WHITE">
+                                                    <HBox.margin>
+                                                        <Insets left="10.0" />
+                                                    </HBox.margin>
+                                                    <font>
+                                                        <Font size="13.0" />
+                                                    </font>
+                                                </Button>
+                                                <Label id="quantity1" alignment="CENTER" contentDisplay="CENTER" prefHeight="26.0" prefWidth="54.0" style="-fx-border-color: A87676;" text="0" textAlignment="CENTER">
+                                                    <font>
+                                                        <Font size="13.0" />
+                                                    </font>
+                                                    <HBox.margin>
+                                                        <Insets left="10.0" />
+                                                    </HBox.margin>
+                                                </Label>
+                                                <Button id="buttonsub1" layoutX="96.0" layoutY="10.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="31.0" style="-fx-background-color: A87676;" text="-" textFill="WHITE">
+                                                    <font>
+                                                        <Font size="13.0" />
+                                                    </font>
+                                                    <HBox.margin>
+                                                        <Insets left="10.0" />
+                                                    </HBox.margin>
+                                                </Button>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </VBox>
+                            </children>
+                        </HBox>
+                        <HBox layoutY="442.0" prefHeight="157.0" prefWidth="926.0">
+                            <children>
+                                <HBox id="footer" prefHeight="162.0" prefWidth="461.0">
+                                    <children>
+                                        <VBox id="lefteco" prefHeight="131.0" prefWidth="442.0">
+                                            <children>
+                                                <HBox id="perfecteco" prefHeight="137.0" prefWidth="402.0" style="-fx-background-color: E1ACAC; -fx-border-color: CA8787;">
+                                                    <VBox.margin>
+                                                        <Insets bottom="30.0" left="20.0" right="20.0" top="10.0" />
+                                                    </VBox.margin>
+                                                    <children>
+                                                        <ImageView id="jpg3" fx:id="eco" fitHeight="80.0" fitWidth="79.0" pickOnBounds="true" preserveRatio="true">
+                                                            <HBox.margin>
+                                                                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                                                            </HBox.margin>
+                                                            <image>
+                                                                <Image url="@images/eco.png" />
+                                                            </image>
+                                                        </ImageView>
+                                                        <Label id="ecodesc" prefHeight="80.0" prefWidth="286.0" text="Your order will be sent safely in an eco-friendly box without plastic bubble wrap." textFill="WHITE" wrapText="true">
+                                                            <HBox.margin>
+                                                                <Insets bottom="20.0" right="10.0" top="20.0" />
+                                                            </HBox.margin>
+                                                            <font>
+                                                                <Font name="System Bold" size="12.0" />
+                                                            </font>
+                                                        </Label>
+                                                    </children>
+                                                </HBox>
+                                            </children>
+                                        </VBox>
+                                    </children>
+                                    <HBox.margin>
+                                        <Insets left="14.0" />
+                                    </HBox.margin>
+                                </HBox>
+                                <VBox id="perfectcheckout" prefHeight="80.0" prefWidth="397.0" style="-fx-background-color: A87676;">
+                                    <children>
+                                        <HBox id="layer1" prefHeight="39.0" prefWidth="398.0" style="-fx-background-color: A87676; -fx-background-radius: 20; -fx-border-color: 20;">
+                                            <VBox.margin>
+                                                <Insets />
+                                            </VBox.margin>
+                                            <children>
+                                                <Label id="subtotal" prefHeight="39.0" prefWidth="185.0" text="Subtotal" textAlignment="CENTER" textFill="WHITE">
+                                                    <font>
+                                                        <Font size="14.0" />
+                                                    </font>
+                                                    <HBox.margin>
+                                                        <Insets left="14.0" top="6.0" />
+                                                    </HBox.margin>
+                                                </Label>
+                                                <Label id="space8" prefHeight="40.0" prefWidth="28.0" />
+                                                <Label id="total" alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="39.0" prefWidth="184.0" text="Rp299.985" textFill="WHITE">
+                                                    <HBox.margin>
+                                                        <Insets right="14.0" top="6.0" />
+                                                    </HBox.margin>
+                                                    <font>
+                                                        <Font size="14.0" />
+                                                    </font>
+                                                </Label>
+                                            </children>
+                                        </HBox>
+                                        <HBox prefHeight="22.0" prefWidth="398.0" style="-fx-background-color: A87676;">
+                                            <children>
+                                                <Label id="descsub" prefHeight="18.0" prefWidth="377.0" text="Without additional costs" textFill="WHITE">
+                                                    <HBox.margin>
+                                                        <Insets left="14.0" />
+                                                    </HBox.margin>
+                                                </Label>
+                                            </children>
+                                        </HBox>
+                                        <HBox prefHeight="63.0" prefWidth="398.0">
+                                            <children>
+                                                <Button id="buttoncheckout" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="36.0" prefWidth="390.0" style="-fx-background-color: #ea3939;" text="CHECKOUT" textAlignment="CENTER" textFill="WHITE">
+                                                    <font>
+                                                        <Font size="14.0" />
+                                                    </font>
+                                                    <HBox.margin>
+                                                        <Insets left="16.0" right="16.0" top="12.0" />
+                                                    </HBox.margin>
+                                                </Button>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                    <HBox.margin>
+                                        <Insets bottom="40.0" top="20.0" />
+                                    </HBox.margin>
+                                </VBox>
+                            </children>
+                        </HBox>
+                        <HBox id="habox.barang1" layoutX="-1.0" layoutY="237.0" prefHeight="103.0" prefWidth="926.0" style="-fx-border-color: CA8787;">
+                            <children>
+                                <CheckBox id="checkbox2" mnemonicParsing="false" prefHeight="116.0" prefWidth="102.0">
+                                    <padding>
+                                        <Insets left="32.0" />
+                                    </padding>
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </CheckBox>
+                                <ImageView id="jpg2" fx:id="skintific" fitHeight="90.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                                    <HBox.margin>
+                                        <Insets bottom="5.0" top="5.0" />
+                                    </HBox.margin>
+                                    <image>
+                                        <Image url="@images/SKINTIFIC.png" />
+                                    </image>
+                                </ImageView>
+                                <Label id="space4" prefHeight="100.0" prefWidth="26.0" />
+                                <VBox prefHeight="100.0" prefWidth="400.0">
+                                    <children>
+                                        <Label id="pro2" prefHeight="51.0" prefWidth="434.0" text="SKINTIFIC">
+                                            <font>
+                                                <Font name="System Bold" size="13.0" />
+                                            </font>
+                                        </Label>
+                                        <Label id="desc1.pro2" prefHeight="18.0" prefWidth="435.0" text="5X Ceramide Serum Sunscreen" textAlignment="CENTER" />
+                                        <Label id="desc2.pro2" prefHeight="18.0" prefWidth="352.0" text="Size : 30 ml" textAlignment="CENTER" />
+                                        <Label id="space5" prefHeight="29.0" prefWidth="327.0" />
+                                        <HBox prefHeight="48.0" prefWidth="434.0">
+                                            <children>
+                                                <Label id="desc3.pro2" prefHeight="28.0" prefWidth="67.0" text="Rp128.800" />
+                                                <Label prefHeight="28.0" prefWidth="62.0" text="Rp96.600" textFill="#e42323">
+                                                    <effect>
+                                                        <Lighting>
+                                                            <bumpInput>
+                                                                <Shadow />
+                                                            </bumpInput>
+                                                            <light>
+                                                                <Light.Distant>
+                                                                    <color>
+                                                                        <Color red="0.8941176533699036" green="0.13725490868091583" blue="0.13725490868091583" />
+                                                                    </color>
+                                                                </Light.Distant>
+                                                            </light>
+                                                        </Lighting>
+                                                    </effect>
+                                                </Label>
+                                                <Label id="label.disc1" prefHeight="28.0" prefWidth="51.0" text="[-25%]" textAlignment="CENTER" textFill="RED" />
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </VBox>
+                                <VBox fx:id="vBox" prefHeight="46.0" prefWidth="306.0">
+                                    <children>
+                                        <Label prefHeight="88.0" prefWidth="304.0" />
+                                        <HBox prefHeight="110.0" prefWidth="306.0">
+                                            <children>
+                                                <Button id="buttondel2" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="26.0" prefWidth="75.0" style="-fx-background-radius: 20; -fx-background-color: A87676;" text="Delete" textAlignment="CENTER" textFill="WHITE">
+                                                    <font>
+                                                        <Font name="Arial" size="13.0" />
+                                                    </font>
+                                                    <HBox.margin>
+                                                        <Insets left="35.0" />
+                                                    </HBox.margin>
+                                                </Button>
+                                                <Button id="buttonadd2" mnemonicParsing="false" prefHeight="26.0" prefWidth="31.0" style="-fx-background-color: A87676;" text="+" textFill="WHITE">
+                                                    <HBox.margin>
+                                                        <Insets left="10.0" />
+                                                    </HBox.margin>
+                                                    <font>
+                                                        <Font size="13.0" />
+                                                    </font>
+                                                </Button>
+                                                <Label id="quantity2" alignment="CENTER" contentDisplay="CENTER" prefHeight="26.0" prefWidth="54.0" style="-fx-border-color: A87676;" text="0" textAlignment="CENTER">
+                                                    <font>
+                                                        <Font size="13.0" />
+                                                    </font>
+                                                    <HBox.margin>
+                                                        <Insets left="10.0" />
+                                                    </HBox.margin>
+                                                </Label>
+                                                <Button id="buttonsub2" layoutX="96.0" layoutY="10.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="31.0" style="-fx-background-color: A87676;" text="-" textFill="WHITE">
+                                                    <font>
+                                                        <Font size="13.0" />
+                                                    </font>
+                                                    <HBox.margin>
+                                                        <Insets left="10.0" />
+                                                    </HBox.margin>
+                                                </Button>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </VBox>
+                            </children>
+                        </HBox>
+                        <HBox id="habox.barang1" layoutX="-1.0" layoutY="340.0" prefHeight="102.0" prefWidth="926.0" style="-fx-border-color: CA8787;">
+                            <children>
+                                <CheckBox id="checkbox3" mnemonicParsing="false" prefHeight="116.0" prefWidth="102.0">
+                                    <padding>
+                                        <Insets left="32.0" />
+                                    </padding>
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </CheckBox>
+                                <ImageView id="jpg3" fx:id="grace" fitHeight="90.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                                    <HBox.margin>
+                                        <Insets bottom="5.0" top="5.0" />
+                                    </HBox.margin>
+                                    <image>
+                                        <Image url="@images/GRACE%20AND%20GLOW.png" />
+                                    </image>
+                                </ImageView>
+                                <Label id="space6" prefHeight="100.0" prefWidth="26.0" />
+                                <VBox prefHeight="100.0" prefWidth="400.0">
+                                    <children>
+                                        <Label id="pro3" prefHeight="51.0" prefWidth="434.0" text="GRACE AND GLOW">
+                                            <font>
+                                                <Font name="System Bold" size="13.0" />
+                                            </font>
+                                        </Label>
+                                        <Label id="desc1.pro3" prefHeight="18.0" prefWidth="435.0" text="Brightening Solution Body Wash" textAlignment="CENTER" />
+                                        <Label id="desc2.pro3" prefHeight="18.0" prefWidth="352.0" text="Size : 400 ml" textAlignment="CENTER" />
+                                        <Label id="space7" prefHeight="29.0" prefWidth="327.0" />
+                                        <HBox prefHeight="48.0" prefWidth="434.0">
+                                            <children>
+                                                <Label prefHeight="28.0" prefWidth="67.0" text="Rp59.400" />
+                                                <Label id="desc3.pro3" prefHeight="28.0" prefWidth="62.0" text="Rp53.460" textFill="#e42323">
+                                                    <effect>
+                                                        <Lighting>
+                                                            <bumpInput>
+                                                                <Shadow />
+                                                            </bumpInput>
+                                                            <light>
+                                                                <Light.Distant>
+                                                                    <color>
+                                                                        <Color red="0.8941176533699036" green="0.13725490868091583" blue="0.13725490868091583" />
+                                                                    </color>
+                                                                </Light.Distant>
+                                                            </light>
+                                                        </Lighting>
+                                                    </effect>
+                                                </Label>
+                                                <Label id="label.disc1" prefHeight="28.0" prefWidth="51.0" text="[-10%]" textAlignment="CENTER" textFill="RED" />
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </VBox>
+                                <VBox fx:id="vBox" prefHeight="46.0" prefWidth="306.0">
+                                    <children>
+                                        <Label prefHeight="88.0" prefWidth="304.0" />
+                                        <HBox prefHeight="110.0" prefWidth="306.0">
+                                            <children>
+                                                <Button id="buttondel3" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="26.0" prefWidth="75.0" style="-fx-background-radius: 20; -fx-background-color: A87676;" text="Delete" textAlignment="CENTER" textFill="WHITE">
+                                                    <font>
+                                                        <Font name="Arial" size="13.0" />
+                                                    </font>
+                                                    <HBox.margin>
+                                                        <Insets left="35.0" />
+                                                    </HBox.margin>
+                                                </Button>
+                                                <Button id="buttonadd3" mnemonicParsing="false" prefHeight="26.0" prefWidth="31.0" style="-fx-background-color: A87676;" text="+" textFill="WHITE">
+                                                    <HBox.margin>
+                                                        <Insets left="10.0" />
+                                                    </HBox.margin>
+                                                    <font>
+                                                        <Font size="13.0" />
+                                                    </font>
+                                                </Button>
+                                                <Label id="quantity3" alignment="CENTER" contentDisplay="CENTER" prefHeight="26.0" prefWidth="54.0" style="-fx-border-color: A87676;" text="0" textAlignment="CENTER">
+                                                    <font>
+                                                        <Font size="13.0" />
+                                                    </font>
+                                                    <HBox.margin>
+                                                        <Insets left="10.0" />
+                                                    </HBox.margin>
+                                                </Label>
+                                                <Button id="buttonsub3" layoutX="96.0" layoutY="10.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="31.0" style="-fx-background-color: A87676;" text="-" textFill="WHITE">
+                                                    <font>
+                                                        <Font size="13.0" />
+                                                    </font>
+                                                    <HBox.margin>
+                                                        <Insets left="10.0" />
+                                                    </HBox.margin>
+                                                </Button>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </VBox>
+                            </children>
+                        </HBox>
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+    </children>
+</AnchorPane>

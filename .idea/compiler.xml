@@ -9,5 +9,8 @@
         <module name="tess" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="tess (1)" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>
