@@ -5,7 +5,7 @@ import javafx.scene.control.*;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
-import model.Product;
+import main.model.Product;
 
 public class MainController {
     @FXML
