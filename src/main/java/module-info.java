@@ -15,7 +15,12 @@ module tess {
 
     opens login to javafx.fxml;
     opens main to javafx.fxml;
+    opens KeranjangCheckout to javafx.fxml;
+    opens AddAddress to javafx.fxml;
+
     exports main;
     exports main.model;
     exports login;
+    exports AddAddress;
+    exports KeranjangCheckout;
 }

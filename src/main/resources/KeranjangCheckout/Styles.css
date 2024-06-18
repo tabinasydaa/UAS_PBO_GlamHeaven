@@ -1,0 +1,116 @@
+/* Gaya untuk judul besar */
+#bigtitle {
+    -fx-text-fill: #e42323;
+}
+
+/* Gaya untuk checkbox */
+#checkbox.selectall {
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
+    -fx-border-color: none;
+    -fx-background-color: none;
+}
+
+#checkbox.selectall .box {
+    -fx-background-color: none; /* Atur latar belakang checkbox menjadi transparan */
+    -fx-border-color: none; /* Atur border checkbox menjadi transparan */
+}
+
+/* Gaya untuk tombol Delete */
+#buttondelete.top, .buttondel {
+    -fx-background-color: #e42323;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-background-radius: 20;
+}
+
+/* Gaya untuk tombol Checkout */
+#buttoncheckout {
+    -fx-background-color: #ea3939;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-background-radius: 20;
+}
+
+/* Gaya untuk label diskon */
+.label.disc1 {
+    -fx-text-fill: red;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+/* Gaya untuk subtotal dan total */
+#subtotal, #total {
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+}
+
+/* Gaya untuk footer */
+#footer {
+    -fx-padding: 10px;
+}
+
+/* Gaya untuk space antar elemen */
+#space1, #space2, #space3, #space4, #space5, #space6, #space7, #space8 {
+    -fx-min-width: 10px;
+}
+
+/* Gaya untuk jumlah barang */
+#quantity1, #quantity2, #quantity3 {
+    -fx-border-color: #A87676;
+    -fx-font-size: 13px;
+    -fx-alignment: center;
+}
+
+/* Gaya untuk tombol tambah dan kurang */
+.buttonadd, #buttonsub1, #buttonsub2, #buttonsub3, #buttonadd1, #buttonadd2, #buttonadd3 {
+    -fx-background-color: #A87676;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-background-radius: 20;
+}
+
+/* Gaya untuk container produk */
+.habox.barang1 {
+    -fx-border-color: #CA8787;
+}
+
+/* Gaya untuk gambar produk */
+/*#jpg1, #jpg2, #jpg3, #cosrx, #skintific, #grace {*/
+/*    -fx-effect: dropshadow(three-pass-box, #A87676, 10, 0, 0, 0);*/
+/*}*/
+
+/* Gaya untuk gambar eco */
+/*#jpg3, #eco {*/
+/*    -fx-effect: dropshadow(three-pass-box, #CA8787, 10, 0, 0, 0);*/
+/*}*/
+
+/* Gaya untuk deskripsi produk */
+#desc1.pro1, #desc2.pro1, #desc3.pro1, #desc1.pro2, #desc2.pro2, #desc3.pro2, #desc1.pro3, #desc2.pro3, #desc3.pro3 {
+    -fx-font-size: 12px;
+}
+
+/* Gaya untuk space header */
+#habox.bigtitle {
+    -fx-background-color: #FFD0D0;
+}
+
+/* Gaya untuk Select All */
+#habox.selectall {
+    -fx-border-color: #CA8787;
+}
+
+/* Gaya untuk konten utama */
+#Layar1, #Layar2 {
+    -fx-background-color: #FFD0D0;
+}
+
+/* Gaya untuk scrollbar */
+#Scroll1 {
+    -fx-hbar-policy: NEVER;
+}
+
+/* Gaya untuk label ekodeskripsi */
+#ecodesc {
+    -fx-font-size: 12px;
+}
