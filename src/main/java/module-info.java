@@ -18,4 +18,7 @@ module tess {
     exports main;
     exports main.model;
     exports login;
+
+    opens AddAddress to javafx.fxml;
+    exports AddAddress;
 }
