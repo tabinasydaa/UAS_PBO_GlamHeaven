@@ -4,127 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="caa16e65-85b6-4bf3-9250-31c8f2cc9b7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/YOU (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/acwell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/avoskin (skincare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/barenbliss (bodycare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/barenbliss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/beauty secrets.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/bio oil (bodycare).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/bio-essence (skincare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/bioderma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/buttered.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/cetaphil (skincare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/cosrx (skincare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/dazzle me (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/dear  me beauty (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/dewit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/dmb (bodycare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/dove.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/elsheskin (skincare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/erha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/espoir (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/esqa (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/etude.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/focallure (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/gng (bodycare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/hada labo (skincare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/heimish (skincare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/innisfree (bodycare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/instaperfect (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/iswhite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/kahf (bodycare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/lacoco (skincare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/lavajoy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/lavie lash (makeup).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/loreal paris (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/mother of pearl (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/nama (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/nivea (bodycare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/npure (skincare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/otwoo (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/perspirex (bodycare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/precious skin (bodycare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/pyungkang (skincare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/rad (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/romand (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/safi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/scarlett.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/skintific (skincare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/skintific.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/studio tropik (skincare).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/sukin (bodycare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/vaseline (bodycare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/wardah (makeup).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/whtelab (skincare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/YOU (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/acwell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/avoskin (skincare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/back.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/barenbliss (bodycare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/barenbliss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/beauty secrets.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/bio oil (bodycare).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/bio-essence (skincare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/bioderma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/buttered.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/cetaphil (skincare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/cosrx (skincare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/dazzle me (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/dear  me beauty (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/dewit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/dmb (bodycare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/dove.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/elsheskin (skincare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/erha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/espoir (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/esqa (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/etude.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/focallure (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/gng (bodycare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/hada labo (skincare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/heimish (skincare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/innisfree (bodycare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/instaperfect (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/iswhite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/kahf (bodycare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/lacoco (skincare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/lavajoy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/lavie lash (makeup).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/loreal paris (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/makeover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/mother of pearl (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/nama (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/nivea (bodycare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/npure (skincare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/otwoo (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/perspirex (bodycare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/precious skin (bodycare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/pyungkang (skincare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/rad (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/romand (makeup).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/safi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/scarlett.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/skintific (skincare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/skintific.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/studio tropik (skincare).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/sukin (bodycare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/vaseline (bodycare).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/wardah (makeup).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/main/image/whtelab (skincare).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/image/fitme.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/image/maybelline.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/ItemController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/main/item.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/main/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/main/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/main/main.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="caa16e65-85b6-4bf3-9250-31c8f2cc9b7b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -247,7 +127,7 @@
       <workItem from="1718737547753" duration="1325000" />
       <workItem from="1718738911182" duration="136000" />
       <workItem from="1718739057498" duration="51000" />
-      <workItem from="1718758872646" duration="9774000" />
+      <workItem from="1718758872646" duration="10114000" />
     </task>
     <servers />
   </component>
