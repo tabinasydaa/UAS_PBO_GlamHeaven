@@ -78,9 +78,18 @@ Glam Heaven dikembangkan dengan menerapkan prinsip-prinsip Pemrograman Berorient
 Jobdesc:
 
 1. Halaman login dan tampilan beranda (Tabina)
+   
    ![image](https://github.com/tabinasydaa/UAS_PBO_GlamHeaven/assets/151441034/73b5771d-b4b7-41b2-a399-e079e8fc7eac)
+
+
    ![image](https://github.com/tabinasydaa/UAS_PBO_GlamHeaven/assets/151441034/e7d909ad-0ac5-4312-a578-74a89582d3f9)
+
+
+
+
    ![image](https://github.com/tabinasydaa/UAS_PBO_GlamHeaven/assets/151441034/3ef3549f-82db-487a-9dd4-982cf01e1ad4)
+
+
    ![image](https://github.com/tabinasydaa/UAS_PBO_GlamHeaven/assets/151441034/d36da949-8975-40ff-adda-048f0cd55eda)
 
 
@@ -88,12 +97,17 @@ Jobdesc:
 Membuat tampilan login dan sign up untuk agar user memiliki data tersendiri dan memudahkan untuk pemesanan, saya membuat tampilan beranda yang berisi cart berupa produk produk yang bisa dipilih user untuk nanti nya akan masuk ke keranjang checkout. Saya membuat beberapa kategori unuk memudahkan user memilih product. Saya juga membuat permainan Ular yang mana ketika user mainkan dan menang maka user akan mendapat poin dan poin tersebut bisa dipakai untuk potongan harga pada barang yang di checkout user. 
     
 2.  Database (Tabhita)
+
+   
    ![image](https://github.com/tabinasydaa/UAS_PBO_GlamHeaven/assets/151441034/93629d00-7378-4b13-a9a4-fea3455b990f)
 
    
 Mengurus semua database program ini mulai dari masukan user, juga masukan dari developer. semua data data akan diolah dalam setiap table dan akan di integrasikan ke aplikasi juga mengoptimalkan query agar membuat mudah pengolahan data pada aplikasi, juga membuat autentikasi pada fitur login agar menjaga keamanan data pengguna.
 
 3.Keranjang (kyla) 
+
+
+
 ![image](https://github.com/tabinasydaa/UAS_PBO_GlamHeaven/assets/151441034/bda2346e-ab5a-475e-997a-f33e07bf10af)
 
 
@@ -104,8 +118,13 @@ Sebagai bagian dari tim pengembangan aplikasi Glam Heaven, tanggung jawab utama 
 Setiap produk di halaman keranjang juga dilengkapi dengan tombol untuk menambah dan mengurangi kuantitas produk yang ingin dibeli. Di bagian bawah setiap produk, terdapat tanda eco-friendly yang menunjukkan komitmen Glam Heaven terhadap produk ramah lingkungan. Subtotal harga untuk produk-produk yang dicentang juga ditampilkan di halaman ini, memberikan pengguna gambaran jelas tentang total biaya sebelum melanjutkan ke tahap berikutnya. Setelah pengguna siap, mereka dapat melanjutkan ke halaman alamat pengiriman, yang dikelola oleh rekan tim saya, untuk menyelesaikan proses checkout. Halaman keranjang ini didesain untuk memberikan kemudahan dan fleksibilitas maksimal kepada pengguna dalam mengatur pembelian mereka.
 
 4.Metode Pengiriman (Venda) 
+
+
      
 ![image](https://github.com/tabinasydaa/UAS_PBO_GlamHeaven/assets/151441034/04773043-c34a-4024-9358-159c1e7fe50e)
+
+
+
 
 
 Penjelasan:
@@ -121,6 +140,10 @@ Kolom"Alamat Lengkap" digunakan untuk memasukkan detail alamat seperti blok dan 
 Setelah pengguna mengisi dan menyimpan informasi pengiriman ini, proses akan dilanjutkan ke bagian struk hasil yang memuat detail lebih lanjut mengenai status pengiriman, informasi pengiriman, alamat pengiriman, informasi item yang dibeli, metode pembayaran, serta informasi waktu terkait pesanan dan pengiriman. Struk hasil ini juga dilengkapi dengan opsi untuk menyimpan atau mencetak struk sesuai kebutuhan pengguna.
 
  5.Struk Hasil (Rizki)
+
+
+
+ 
 ![image](https://github.com/tabinasydaa/UAS_PBO_GlamHeaven/assets/151441034/2a63c31e-1716-4b8d-99fb-16d452f44668)
 
 
